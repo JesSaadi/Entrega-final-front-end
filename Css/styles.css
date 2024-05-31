@@ -1,0 +1,93 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5e4a2c;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block; /* Esto asegura que el div del logo ocupe solo el espacio necesario */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+footer {
+  background-color: #5e4a2c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para la galería de productos */
+
+.productos {
+  max-width: 90vw;
+}
+.productos-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.productos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+}
+
+.productos-container .foto img {
+  width: 100%;
+}
+
+.productos-container .descripcion {
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.productos-container .descripcion .nombre {
+  font-weight: bold;
+  font-size: small;
+}
+
+.error-message {
+  color: rgb(164, 13, 13);
+  font-size: 14px;
+  margin-top: 5px;
+}
+.error {
+  border: 1px solid red;
+}
+.sinError {
+  border: 1px solid green;
+}
+
+/* Media queries para ajustar la cuadrícula en diferentes tamaños de pantalla */

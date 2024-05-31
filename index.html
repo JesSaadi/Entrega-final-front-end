@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pura</title>
+    <link rel="stylesheet" href="./Css/styles.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./Img/Logo_Pura-removebg-preview.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-wrapper">
+        <div class="logo">
+          <a href="">
+            <img
+              src="./Img/Logo_Pura-removebg-preview.png"
+              class="logo-img"
+              alt="Logo de Pura" />
+          </a>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./Assets/Productos.html">Productos</a></li>
+          <li><a href="./Assets/Servicios.html">Servicios</a></li>
+          <li><a href="./Assets/Regitrarse.html">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <h2>Bienvenido a Tu Dietética Online</h2>
+      <p>¡Encuentra todo lo que necesitas para llevar una vida saludable!</p>
+    </section>
+
+    <div class="container">
+      <div class="card">
+          <div class="card-header bg-primary text-white">
+              <h2 class="mb-0">Información del Clima</h2>
+          </div>
+          <div class="card-body">
+              <p><span>Ciudad:</span> <span id="city"></span></p>
+              <p><span>Temperatura:</span> <span id="temperature"></span> °C</p>
+              <p><span>Clima:</span> <span id="weather"></span> <img id="weatherIcon" src="" alt=""></p>
+              <p><span>Humedad:</span> <span id="humidity"></span>%</p>
+              <p><span>Velocidad del Viento:</span> <span id="windSpeed"></span> m/s</p>
+          </div>
+      </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    <div class="container">
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+          <h2 class="mb-0">Información del Clima</h2>
+        </div>
+        <div class="card-body">
+          <p><span>Ciudad:</span> <span id="city"></span></p>
+          <p><span>Temperatura:</span> <span id="temperature"></span> °C</p>
+          <p>
+            <span>Clima:</span> <span id="weather"></span>
+            <img id="weatherIcon" src=" " alt="" />
+          </p>
+          <p><span>Humedad:</span> <span id="humidity"></span>%</p>
+          <p>
+            <span>Velocidad del Viento:</span> <span id="windSpeed"></span> m/s
+          </p>
+        </div>
+      </div>
+    </div>
+  </script>
+
+    <section class="productos" id="productos">
+      <h3>Nuestros Productos</h3>
+
+      <div class="productos-galeria">
+        <!-- Aquí incluir una galería de productos -->
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img
+                src="./Img/Aceite de Coco.jpeg"
+                class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">ACEITE DE COCO</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img
+                src="./Img/Almendras.jpeg"
+                class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">ALMENDRAS NON PAREIL</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img
+                src="./Img/Arándonos.jpeg"
+                class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">ARÁNDONOS</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img src="./Img/Avena.jpeg" class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">AVENA</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img src="./Img/Banana.jpeg" class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">CHIPS DE BANANA</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img src="./Img/Granola.jpeg" class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">GRANOLA</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img src="./Img/Nueces.jpeg" class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">NUECES MARIPOSA</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="productos-container">
+          <a href="./Assets/Productos.html">
+            <div class="foto">
+              <img src="./Img/Pasas.jpeg" class="img-responsive float-left" />
+            </div>
+            <div class="descripcion text-center">
+              <span class="nombre">PASAS DE UVA</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios">
+      <h3>Nuestros Servicios</h3>
+      <!-- Aquí incluir información sobre los servicios que ofrecezco -->
+    </section>
+
+    <section id="Registrarse">
+      <h3>Registrarse</h3>
+      <!-- Aquí incluir un formulario de contacto -->
+    </section>
+
+    <footer>
+      <p>&copy; Dietéticos y saludables. Creado con amor por Jesica Saadi</p>
+    </footer>
+  </body>
+</html>

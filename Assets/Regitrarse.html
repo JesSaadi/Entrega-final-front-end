@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../Css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="./Servicios.html">Servicios</a></li>
+                <li><a href="./Registrarse.html">Registrarse</a></li> <!-- Corregido aquí -->
+            </ul>
+        </nav>
+        <h3>Registrarse</h3> <!-- Corregido aquí -->
+    </header>
+    <form id="registroForm" action="" method="POST"> <!-- Agregado el ID "registroForm" -->
+        <h2>Registrate</h2>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" ><br><br>
+        <div id="nombreError" class="mensajeDeError"></div>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido" ><br><br> <!-- Agregado el campo para el apellido -->
+        <div id="apellidoError" class="mensajeDeError"></div>
+        <input type="email" id="email" name="email" placeholder="Email" ><br><br>
+        <div id="emailError" class="mensajeDeError"></div>
+        <label for="mensaje">Dejanos tu consulta:</label><br><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" ></textarea><br><br>
+        <div id="mensajeError" class="mensajeDeError"></div>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
